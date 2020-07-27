@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'Viga';
+    src: url("Viga-Regular.ttf");
+}
+body{
+    background: url("fundo.jpg");
+    text-align: center;
+}
+div{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: white;
+    margin: 30px 80px 30px 80px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 6px 7px 8px rgb(0, 0, 0);
+
+}
+p{
+    text-align: justify;
+    font-size: 15pt;
+    font-family: Century Gothic;
+}
+img{
+    width: 37%;
+    box-shadow: 0px 0px 20px rgba(255, 223, 39, 0.938);
+    border: 3px solid rgb(255, 255, 254);
+}
+img#foto{
+    width: 25%;
+    box-shadow: 0px 0px 20px rgba(255, 223, 39, 0.938);
+    border: 3px solid rgb(255, 255, 254);
+}
+h1{
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 35pt;
+}
+h2{
+    font-size: 21pt;
+    font-family: 'Viga', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 223, 39);
+    font-size: 15pt;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
